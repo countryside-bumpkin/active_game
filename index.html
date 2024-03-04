@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Active Game Template</title>
+        <style>
+            * {
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                overflow: hidden;
+            }
+            .container{
+                width: 100vw;
+                height: 100vh;
+                background-color: red;
+                margin: auto;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .left {
+                background: linear-gradient(rgba(234,251,249,255), rgba(142, 192, 182, 255));
+               height: 100%;
+               flex-grow: 1;
+               padding-top:10vh;
+            }
+            .right {
+                background: linear-gradient(rgba(202,242,239,255), rgba(173,198,192,255));
+                height: 100%;
+                flex-grow: 4;
+            }
+           
+            .left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .profile {
+               
+                width: 60%;
+                text-align: center;
+            }
+            .profile img {
+                width: 60px;
+                height:70px;
+                border-radius: 100%;
+            }
+            .profile p:first-child {
+                font-weight: bolder;
+                color:#7db2dc;
+                font-size:3px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .profile p:last-child {
+            
+                color: grey;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .icons {
+                color:#7db2dc;
+                width: 60%;
+            }
+
+            .icons i {
+                color:#7db2dc;
+                font-size: 25px;
+            }
+
+            .icons div {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-top: 30px;
+                justify-content: center;
+            }
+            .bottombox {
+                background-color:rgba(129,203,202,255);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 20px;
+                padding: 10px;
+                border: 30px;
+                margin-top: 80px;
+                gap: 40px;
+                border-radius: 10px;;
+            }
+            .bottombox  p {
+                width: 70px;
+            }
+            .bottombox  img {
+
+                width: 60px;
+            }
+            .card {
+                width: 80%;
+                background-color: rgba(231,249,247,255);
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border-radius: 10px;
+                color:#95abc4;
+
+            }
+            h2{
+                color:#6883a2;
+                font-size:2rem;
+            }
+            .card img {
+                width: 80px;
+                border-radius: 10px;
+            }
+            .line {
+                height: 20px;
+               background-color: rgba(145,230,210,255);
+               border-radius: 30px;
+               width:30vw;
+            }
+
+            .rightflex {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+
+            .info{
+           
+                width: 60%;
+               
+               margin: 60px;
+            }
+            .icons .fa-solid fa-gamepad{
+                margin-right:80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="profile">
+                    <img src="https://cdn.britannica.com/58/129958-050-C3FE2DD2/Adolf-Hitler-1933.jpg">
+                    <p>Simo Edwin</p>
+                    <p>Pro Member</p>
+                </div>
+                <div class="icons">
+                    <div>
+                        <i class="fa-brands fa-twitch"></i>
+                        <p>Streams</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-steam"></i>
+                        <p>Games</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <p>New</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book"></i>
+                        <p>Library</p>
+                    </div>
+                </div>
+                <div class="bottombox">
+                    <p>Join Pro for Free Games</p>
+                    <img src="https://cpng.pikpng.com/pngl/s/2-22410_nes-video-game-controller-clip-art-png-download.png">
+                </div>
+            </div>
+            <div class="right">
+                <div class="info">
+                    <h2>Active Games</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="rightflex">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUEs5JDptKSxHoaBSXJ04FHTffWpdi0xuOA&usqp=CAU">
+                        <div>
+                            <p>Tales Of Vesperia</p>
+                            <p>PS5 Version</p>
+                            <div class="line"></div>
+                        </div>
+                        <p>60%</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUEs5JDptKSxHoaBSXJ04FHTffWpdi0xuOA&usqp=CAU">
+                        <div>
+                            <p>Tales Of Vesperia</p>
+                            <p>PS5 Version</p>
+                            <div class="line"></div>
+                        </div>
+                        <p>60%</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUEs5JDptKSxHoaBSXJ04FHTffWpdi0xuOA&usqp=CAU">
+                        <div>
+                            <p>Tales Of Vesperia</p>
+                            <p>PS5 Version</p>
+                            <div class="line"></div>
+                        </div>
+                        <p>60%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
